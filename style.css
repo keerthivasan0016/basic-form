@@ -60,7 +60,7 @@ input[type="file"]{
     font-size:10px;
 }
 input[type="email"]:valid{
-    color:lightgreen;
+    color:green;
 }
 body{
     background-image:url(nature.jpg);
@@ -94,13 +94,23 @@ body{
     left:60px;
 }
 }
+@media only screen and (max-width:380px){
+    fieldset{
+    background:#eae2b7;
+    padding:20px;
+    border-radius:30px;
+    position:relative;
+    right:15px;
+}
+    .container{
+    background:transparent;
+    width:clamp(200px,50%,aut0);
+    border:2px solid transparent;
+    color:blue;
+    opacity:0.8;
 
-
-
-
-
-
-
+}
+}
 
 
 
